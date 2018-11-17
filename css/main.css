@@ -18,7 +18,6 @@ margin: 0;
   margin: auto;
 }
 
-
 #intro, footer, .music, #covers {
   text-align: center;
 }
@@ -34,9 +33,8 @@ margin: 0;
 }
 
 #introText {
-  margin: 2rem; 
+  margin: 2rem;
   font-size: 1.5rem;
-
 }
 
 footer {
