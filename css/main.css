@@ -1,0 +1,66 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+font-family: 'Montserrat', 'Verdana', sans-serif;
+background: #cadcf7;
+color: #000;
+margin: 0;
+}
+
+#container {
+  max-width: 640px;
+  margin: auto;
+}
+
+
+#intro, footer, .music, #covers {
+  text-align: center;
+}
+
+#header, #caption {
+  margin: 1rem 2rem;
+}
+
+#concertPhoto {
+  max-width:100%;
+  height:auto;
+  max-height:100%;
+}
+
+#introText {
+  margin: 2rem;
+  font-size: 1.5rem;
+
+}
+
+footer {
+  margin: 1.5rem 0rem;
+}
+
+@media screen and (max-width: 670px) {
+h1 {
+    margin: 1rem;
+    text-align: center;
+  }
+
+#introText {
+    margin: 2rem 2.5rem;
+  }
+
+#concertPhoto {
+  padding: 0rem 2rem;
+}
+
+#covers {
+    margin: 0rem 2rem;
+  }
+
+footer {
+  margin: 2rem;
+}
